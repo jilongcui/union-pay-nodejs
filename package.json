@@ -1,25 +1,26 @@
 {
   "name": "union-pay-nodejs",
-  "version": "1.0.1",
-  "description": "银联支付接口",
+  "version": "1.0.3",
+  "description": "unipay sdk(银联支付接口)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "keywords": [
     "nodejs",
     "pay",
+    "unipay",
     "union",
     "union pay",
-    "银联"
+    "银联支付"
   ],
-  "repository": "https://github.com/Tank/union-pay-nodejs",
-  "author": "Tank <frog2020@126.com>",
+  "repository": "https://github.com/jilongcui/union-pay-nodejs",
+  "author": "Jilong <jilongcui@163.com>",
   "license": "ISC",
   "dependencies": {
-    "iconv-lite": "^0.4.23",
-    "moment": "^2.22.2",
-    "pemutils": "^1.0.3",
-    "request": "^2.88.0"
+    "iconv-lite": "^0.4.24",
+    "moment": "^2.29.1",
+    "pemutils": "jilongcui/pemutils",
+    "request": "^2.88.2"
   }
 }
