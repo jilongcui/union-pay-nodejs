@@ -1,6 +1,6 @@
 {
   "name": "union-pay-nodejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "unipay sdk(银联支付接口)",
   "main": "index.js",
   "scripts": {
